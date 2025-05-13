@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/03/99/09/66/360_F_399096694_rI4J6yHpEaijvG36k8ybRFrqKpKp6pOn.jpg);
+   background-size: cover;
+}
+#head
+{
+    color: gold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#container
+{
+    background-image:url(https://thumbs.dreamstime.com/b/yellow-luxury-background-intricate-gold-mandala-ornament-elegant-yellow-background-adorned-detailed-gold-mandala-341301915.jpg);
+    background-size: cover;
+
+    height: fit-content;
+    width: 700px;
+    background-color:goldenrod;
+    border-radius: 2px solid black;
+    margin-top: 50px;
+    border-radius: 25px;
+   justify-self: center;
+
+}
+.audio
+{
+   padding-top: 5%;
+   justify-items: center;
+   color: whitesmoke;
+}

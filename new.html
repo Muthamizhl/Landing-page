@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-bar h1 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+}
+
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+ 
+}
+
+/* Gallery Items */
+.gallery-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="title-bar">
+            <h1>My Gallery</h1>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="./bac.jpg" alt="Image 1">
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="./bac.jpg" alt="Image 2">
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="./glassy-3d-render-3840x2160-21846.jpg" alt="Image 3">
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+            <img src="./glassy-3d-render-3840x2160-21846.jpg" alt="Image 4">
+        </div>
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item">
+            <img src="./bac.jpg" alt="Image 5">
+        </div>
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item">
+            <img src="./glassy-3d-render-3840x2160-21846.jpg" alt="Image 6">
+        </div>
+        <!-- Gallery Item 7 -->
+        <div class="gallery-item">
+            <img src="./bac.jpg" alt="Image 7">
+        </div>
+        <!-- Gallery Item 8 -->
+        <div class="gallery-item">
+            <img src="./glassy-3d-render-3840x2160-21846.jpg" alt="Image 8">
+        </div>
+        <!-- Gallery Item 9 -->
+        <div class="gallery-item">
+            <img src="./bac.jpg" alt="Image 9">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Gallery</p>
+    </footer>
+</body>
+</html>
